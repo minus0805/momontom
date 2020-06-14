@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.js-clock {
+    font-weight: 300;
+    font-size: 120px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.weather-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.js-ondo {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    opacity: 80%;
+    text-align: right;
+}
+
+.js-spot {
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+    opacity: 80%;
+    text-align: right;
+}
+
+.ask-name {
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.form,
+.greeting {
+    display: none;
+    text-align: center;
+}
+
+.greeting {
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.showing {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.underline {
+    /* background: transparent; */
+    border: 0;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 14px;
+    /* opacity: 30%; */
+    /* border-bottom: 1px solid #fff; */
+    padding: 8px;
+    width: 240px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.underline:focus {
+    outline: 0;
+}
+
+.underline::placeholder {
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.text {
+    color: #7A7A7A;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.js-toDoList {
+    list-style: none;
+    padding-left: 0px;
+    width: 230px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.js-toDoList li {
+    margin: 5px 0px;
+}
+.js-toDoList li span {
+    vertical-align: top;
+}
+
+.btn-del {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-del:focus {
+    outline: 0;
+}
